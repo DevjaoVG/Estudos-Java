@@ -1,7 +1,10 @@
+import service.BibliotecaService;
 import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
+
+        BibliotecaService bibliotecaService = new BibliotecaService();
         
         Scanner scanner = new Scanner(System.in);
         int opcao = -1;
@@ -23,11 +26,13 @@ class Main {
 
                     System.out.print("Digite o autor do livro: ");
                     String autor = scanner.nextLine();
+
+                    bibliotecaService.cadastrarLivro(titulo, autor);
                     break;
 
                 case 2:
                     // Aqui você pode listar os livros cadastrados
-                    System.out.println("Listando livros...");
+                    bibliotecaService.listarLivros();
                     break;
 
                 case 0:
