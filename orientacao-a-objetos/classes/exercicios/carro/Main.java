@@ -1,5 +1,3 @@
-package test;
-
 import java.util.Scanner;
 
 public class Main {
@@ -9,12 +7,7 @@ public class Main {
 
         Carro fiat = new Carro();
 
-
-        while (true) {
-            System.out.print("Digite uma ação: ");
-            fiat.action(scanner.next());
-
-            System.out.print(scanner.next());
-        }
+        fiat.andar()
+        fiat.parar()
     }
 }

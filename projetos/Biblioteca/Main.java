@@ -17,7 +17,7 @@ class Main {
 
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
@@ -31,7 +31,6 @@ class Main {
                     break;
 
                 case 2:
-                    // Aqui você pode listar os livros cadastrados
                     bibliotecaService.listarLivros();
                     break;
 

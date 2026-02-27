@@ -1,18 +1,10 @@
-package test;
-
 public class Carro {
     String cor;
     String marca;
 
     boolean itAndando = false;
 
-
-    void action(String act) {
-        if (act == "andar") {
-            this.andar();
-        }
-    }
-
+    // metodos de classe
     void andar() {
         System.out.println("Andando");
     }

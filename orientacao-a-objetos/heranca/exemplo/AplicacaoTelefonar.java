@@ -3,7 +3,7 @@ public class AplicacaoTelefonar {
         Telefone telefone = new Telefone();
         Orelhao orelhao = new Orelhao();
 
-        telefone.ligar(); // Saída: Telefone ligando...
-        orelhao.ligar();  // Saída: Orelhão ligando...
+        telefone.ligar();
+        orelhao.ligar();
     }
 }

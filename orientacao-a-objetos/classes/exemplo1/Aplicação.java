@@ -12,9 +12,10 @@ public class Aplicação {
         people1.receber(5);
         people1.receber(7);
 
+        // Metodo dar
         people1.dar(9, people2);
 
-        // svso + ctrl + espaço
+        // Imprimindo Resultado
         System.out.println(people1.nome + " => " + people1.numFigurinhas);
         System.out.println(people2.nome + " => " + people2.numFigurinhas);
     }
